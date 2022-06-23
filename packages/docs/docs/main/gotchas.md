@@ -164,7 +164,7 @@ In TypeScript, you cannot extend existing enums, because enums are immutable. (T
 
 ```ts
 // At the top of your TypeScript mod:
-const CollectibleTypeCustom {
+const CollectibleTypeCustom = {
   MY_CUSTOM_ITEM: Isaac.GetItemIdByName("My Custom Item"),
 } as const;
 
